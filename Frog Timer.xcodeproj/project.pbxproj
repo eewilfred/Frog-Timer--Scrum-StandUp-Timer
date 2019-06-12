@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16AB6B6081824475A5850E2D /* Pods_Frog_TimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE76929C14DDD31F0A4F35B /* Pods_Frog_TimerUITests.framework */; };
+		1D8F307D2285986400ADEAE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F307C2285986400ADEAE6 /* AppDelegate.swift */; };
+		1D8F307F2285986400ADEAE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F307E2285986400ADEAE6 /* ViewController.swift */; };
+		1D8F30822285986400ADEAE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F30802285986400ADEAE6 /* Main.storyboard */; };
+		1D8F30842285986500ADEAE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F30832285986500ADEAE6 /* Assets.xcassets */; };
+		1D8F30872285986500ADEAE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F30852285986500ADEAE6 /* LaunchScreen.storyboard */; };
+		1D8F30922285986500ADEAE6 /* Frog_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F30912285986500ADEAE6 /* Frog_TimerTests.swift */; };
+		1D8F309D2285986500ADEAE6 /* Frog_TimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8F309C2285986500ADEAE6 /* Frog_TimerUITests.swift */; };
+		1D8F30AB2285B2DD00ADEAE6 /* tomex.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D8F30AA2285B2DD00ADEAE6 /* tomex.mp3 */; };
+		5122D231351944B6505576D5 /* Pods_Frog_Timer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C4028256C2C5BF00BAA7A8C /* Pods_Frog_Timer.framework */; };
+		7DB9D55B9EFD76BEEB2D39E4 /* Pods_Frog_TimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2573C4168B2BE9C7781A0CE1 /* Pods_Frog_TimerTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D8F308E2285986500ADEAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8F30712285986400ADEAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8F30782285986400ADEAE6;
+			remoteInfo = "Frog Timer";
+		};
+		1D8F30992285986500ADEAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D8F30712285986400ADEAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D8F30782285986400ADEAE6;
+			remoteInfo = "Frog Timer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CF545CE53CD0CFB45FA176 /* Pods-Frog TimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog TimerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frog TimerUITests/Pods-Frog TimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1D8F30792285986400ADEAE6 /* Frog Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Frog Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8F307C2285986400ADEAE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D8F307E2285986400ADEAE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D8F30812285986400ADEAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D8F30832285986500ADEAE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D8F30862285986500ADEAE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D8F30882285986500ADEAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8F308D2285986500ADEAE6 /* Frog TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frog TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8F30912285986500ADEAE6 /* Frog_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frog_TimerTests.swift; sourceTree = "<group>"; };
+		1D8F30932285986500ADEAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8F30982285986500ADEAE6 /* Frog TimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Frog TimerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D8F309C2285986500ADEAE6 /* Frog_TimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frog_TimerUITests.swift; sourceTree = "<group>"; };
+		1D8F309E2285986500ADEAE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D8F30AA2285B2DD00ADEAE6 /* tomex.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tomex.mp3; sourceTree = "<group>"; };
+		2573C4168B2BE9C7781A0CE1 /* Pods_Frog_TimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frog_TimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2499F8A5F21BB76327324E /* Pods-Frog TimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog TimerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frog TimerTests/Pods-Frog TimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		608998A7CFA494BAC100F535 /* Pods-Frog TimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog TimerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frog TimerUITests/Pods-Frog TimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C4028256C2C5BF00BAA7A8C /* Pods_Frog_Timer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frog_Timer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5ED098C2D631942D34994D /* Pods-Frog Timer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog Timer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frog Timer/Pods-Frog Timer.release.xcconfig"; sourceTree = "<group>"; };
+		BD90660F36EAF875EF031442 /* Pods-Frog Timer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog Timer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frog Timer/Pods-Frog Timer.debug.xcconfig"; sourceTree = "<group>"; };
+		DCE76929C14DDD31F0A4F35B /* Pods_Frog_TimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frog_TimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B78F1350EC5D7B9FE308CF /* Pods-Frog TimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frog TimerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frog TimerTests/Pods-Frog TimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D8F30762285986400ADEAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5122D231351944B6505576D5 /* Pods_Frog_Timer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F308A2285986500ADEAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB9D55B9EFD76BEEB2D39E4 /* Pods_Frog_TimerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F30952285986500ADEAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16AB6B6081824475A5850E2D /* Pods_Frog_TimerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8F30702285986400ADEAE6 = {
+			isa = PBXGroup;
+			children = (
+				1D8F307B2285986400ADEAE6 /* Frog Timer */,
+				1D8F30902285986500ADEAE6 /* Frog TimerTests */,
+				1D8F309B2285986500ADEAE6 /* Frog TimerUITests */,
+				1D8F307A2285986400ADEAE6 /* Products */,
+				EBA56A81BADFDA5886DF664C /* Pods */,
+				DE73CD99CFD3B3571AE379AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D8F307A2285986400ADEAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F30792285986400ADEAE6 /* Frog Timer.app */,
+				1D8F308D2285986500ADEAE6 /* Frog TimerTests.xctest */,
+				1D8F30982285986500ADEAE6 /* Frog TimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D8F307B2285986400ADEAE6 /* Frog Timer */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F30AA2285B2DD00ADEAE6 /* tomex.mp3 */,
+				1D8F307C2285986400ADEAE6 /* AppDelegate.swift */,
+				1D8F307E2285986400ADEAE6 /* ViewController.swift */,
+				1D8F30802285986400ADEAE6 /* Main.storyboard */,
+				1D8F30832285986500ADEAE6 /* Assets.xcassets */,
+				1D8F30852285986500ADEAE6 /* LaunchScreen.storyboard */,
+				1D8F30882285986500ADEAE6 /* Info.plist */,
+			);
+			path = "Frog Timer";
+			sourceTree = "<group>";
+		};
+		1D8F30902285986500ADEAE6 /* Frog TimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F30912285986500ADEAE6 /* Frog_TimerTests.swift */,
+				1D8F30932285986500ADEAE6 /* Info.plist */,
+			);
+			path = "Frog TimerTests";
+			sourceTree = "<group>";
+		};
+		1D8F309B2285986500ADEAE6 /* Frog TimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D8F309C2285986500ADEAE6 /* Frog_TimerUITests.swift */,
+				1D8F309E2285986500ADEAE6 /* Info.plist */,
+			);
+			path = "Frog TimerUITests";
+			sourceTree = "<group>";
+		};
+		DE73CD99CFD3B3571AE379AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4028256C2C5BF00BAA7A8C /* Pods_Frog_Timer.framework */,
+				2573C4168B2BE9C7781A0CE1 /* Pods_Frog_TimerTests.framework */,
+				DCE76929C14DDD31F0A4F35B /* Pods_Frog_TimerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBA56A81BADFDA5886DF664C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD90660F36EAF875EF031442 /* Pods-Frog Timer.debug.xcconfig */,
+				8E5ED098C2D631942D34994D /* Pods-Frog Timer.release.xcconfig */,
+				F4B78F1350EC5D7B9FE308CF /* Pods-Frog TimerTests.debug.xcconfig */,
+				2C2499F8A5F21BB76327324E /* Pods-Frog TimerTests.release.xcconfig */,
+				608998A7CFA494BAC100F535 /* Pods-Frog TimerUITests.debug.xcconfig */,
+				12CF545CE53CD0CFB45FA176 /* Pods-Frog TimerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D8F30782285986400ADEAE6 /* Frog Timer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F30A12285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog Timer" */;
+			buildPhases = (
+				297C68FF61F3D1DBAF9EBBF2 /* [CP] Check Pods Manifest.lock */,
+				1D8F30752285986400ADEAE6 /* Sources */,
+				1D8F30762285986400ADEAE6 /* Frameworks */,
+				1D8F30772285986400ADEAE6 /* Resources */,
+				BC8232B420D17216923B814C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Frog Timer";
+			productName = "Frog Timer";
+			productReference = 1D8F30792285986400ADEAE6 /* Frog Timer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D8F308C2285986500ADEAE6 /* Frog TimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F30A42285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog TimerTests" */;
+			buildPhases = (
+				DE877A5B627F70A3075E0FC6 /* [CP] Check Pods Manifest.lock */,
+				1D8F30892285986500ADEAE6 /* Sources */,
+				1D8F308A2285986500ADEAE6 /* Frameworks */,
+				1D8F308B2285986500ADEAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8F308F2285986500ADEAE6 /* PBXTargetDependency */,
+			);
+			name = "Frog TimerTests";
+			productName = "Frog TimerTests";
+			productReference = 1D8F308D2285986500ADEAE6 /* Frog TimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D8F30972285986500ADEAE6 /* Frog TimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D8F30A72285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog TimerUITests" */;
+			buildPhases = (
+				8CC6E3364392CF455B695562 /* [CP] Check Pods Manifest.lock */,
+				1D8F30942285986500ADEAE6 /* Sources */,
+				1D8F30952285986500ADEAE6 /* Frameworks */,
+				1D8F30962285986500ADEAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D8F309A2285986500ADEAE6 /* PBXTargetDependency */,
+			);
+			name = "Frog TimerUITests";
+			productName = "Frog TimerUITests";
+			productReference = 1D8F30982285986500ADEAE6 /* Frog TimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D8F30712285986400ADEAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Edwin Wilson";
+				TargetAttributes = {
+					1D8F30782285986400ADEAE6 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1D8F308C2285986500ADEAE6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D8F30782285986400ADEAE6;
+					};
+					1D8F30972285986500ADEAE6 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1D8F30782285986400ADEAE6;
+					};
+				};
+			};
+			buildConfigurationList = 1D8F30742285986400ADEAE6 /* Build configuration list for PBXProject "Frog Timer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D8F30702285986400ADEAE6;
+			productRefGroup = 1D8F307A2285986400ADEAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D8F30782285986400ADEAE6 /* Frog Timer */,
+				1D8F308C2285986500ADEAE6 /* Frog TimerTests */,
+				1D8F30972285986500ADEAE6 /* Frog TimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D8F30772285986400ADEAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F30872285986500ADEAE6 /* LaunchScreen.storyboard in Resources */,
+				1D8F30842285986500ADEAE6 /* Assets.xcassets in Resources */,
+				1D8F30AB2285B2DD00ADEAE6 /* tomex.mp3 in Resources */,
+				1D8F30822285986400ADEAE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F308B2285986500ADEAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F30962285986500ADEAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		297C68FF61F3D1DBAF9EBBF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frog Timer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CC6E3364392CF455B695562 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frog TimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC8232B420D17216923B814C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Frog Timer/Pods-Frog Timer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CountdownLabel/CountdownLabel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountdownLabel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Frog Timer/Pods-Frog Timer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE877A5B627F70A3075E0FC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Frog TimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D8F30752285986400ADEAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F307F2285986400ADEAE6 /* ViewController.swift in Sources */,
+				1D8F307D2285986400ADEAE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F30892285986500ADEAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F30922285986500ADEAE6 /* Frog_TimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D8F30942285986500ADEAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D8F309D2285986500ADEAE6 /* Frog_TimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D8F308F2285986500ADEAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8F30782285986400ADEAE6 /* Frog Timer */;
+			targetProxy = 1D8F308E2285986500ADEAE6 /* PBXContainerItemProxy */;
+		};
+		1D8F309A2285986500ADEAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D8F30782285986400ADEAE6 /* Frog Timer */;
+			targetProxy = 1D8F30992285986500ADEAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D8F30802285986400ADEAE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8F30812285986400ADEAE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D8F30852285986500ADEAE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D8F30862285986500ADEAE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D8F309F2285986500ADEAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D8F30A02285986500ADEAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D8F30A22285986500ADEAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD90660F36EAF875EF031442 /* Pods-Frog Timer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.altayer.Frog-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D8F30A32285986500ADEAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5ED098C2D631942D34994D /* Pods-Frog Timer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog Timer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.altayer.Frog-Timer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D8F30A52285986500ADEAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4B78F1350EC5D7B9FE308CF /* Pods-Frog TimerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eform.Frog-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frog Timer.app/Frog Timer";
+			};
+			name = Debug;
+		};
+		1D8F30A62285986500ADEAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C2499F8A5F21BB76327324E /* Pods-Frog TimerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog TimerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eform.Frog-TimerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Frog Timer.app/Frog Timer";
+			};
+			name = Release;
+		};
+		1D8F30A82285986500ADEAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608998A7CFA494BAC100F535 /* Pods-Frog TimerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eform.Frog-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frog Timer";
+			};
+			name = Debug;
+		};
+		1D8F30A92285986500ADEAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CF545CE53CD0CFB45FA176 /* Pods-Frog TimerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				INFOPLIST_FILE = "Frog TimerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Eform.Frog-TimerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Frog Timer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D8F30742285986400ADEAE6 /* Build configuration list for PBXProject "Frog Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F309F2285986500ADEAE6 /* Debug */,
+				1D8F30A02285986500ADEAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8F30A12285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog Timer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F30A22285986500ADEAE6 /* Debug */,
+				1D8F30A32285986500ADEAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8F30A42285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog TimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F30A52285986500ADEAE6 /* Debug */,
+				1D8F30A62285986500ADEAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D8F30A72285986500ADEAE6 /* Build configuration list for PBXNativeTarget "Frog TimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8F30A82285986500ADEAE6 /* Debug */,
+				1D8F30A92285986500ADEAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D8F30712285986400ADEAE6 /* Project object */;
+}

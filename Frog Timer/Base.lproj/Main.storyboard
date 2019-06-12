@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Frog_Timer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1152 copy" translatesAutoresizingMaskIntoConstraints="NO" id="3Tk-KE-adT">
+                                <rect key="frame" x="0.0" y="126" width="375" height="415"/>
+                                <color key="backgroundColor" red="0.19607996940612793" green="0.19607555866241455" blue="0.19607856869697571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="KZ3-Yx-ctA"/>
+                                    <constraint firstAttribute="height" constant="415" id="Qbm-N7-MUI"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ta2-FW-Osb" customClass="CountdownLabel" customModule="CountdownLabel">
+                                <rect key="frame" x="87.5" y="231" width="200" height="93"/>
+                                <color key="backgroundColor" red="0.79161423444747925" green="0.82526671886444092" blue="0.69017702341079712" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="cyI-HJ-DqC"/>
+                                    <constraint firstAttribute="width" constant="200" id="gMh-wn-4IT"/>
+                                    <constraint firstAttribute="height" constant="93" id="tSx-IO-cQV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="45"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpr-Fw-uHe">
+                                <rect key="frame" x="68.5" y="363.5" width="238" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="Z80-47-kaz"/>
+                                    <constraint firstAttribute="height" constant="120" id="pyx-af-zLy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="startStopButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w4g-iq-uip"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kE2-T2-T7g">
+                                <rect key="frame" x="108.5" y="556" width="158" height="91"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="91" id="Yio-dV-8EG"/>
+                                    <constraint firstAttribute="width" constant="158" id="sWY-d6-gcf"/>
+                                </constraints>
+                                <state key="normal" title="MUTE    " image="linea--music-mute">
+                                    <color key="titleColor" red="1" green="0.22476579059999999" blue="0.096952349009999994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="muteButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nO-ol-Yc6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19607996940612793" green="0.19607555866241455" blue="0.19607856869697571" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Mpr-Fw-uHe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RWP-Gm-Whv"/>
+                            <constraint firstItem="Ta2-FW-Osb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-56" id="SY2-Lh-pql"/>
+                            <constraint firstItem="Mpr-Fw-uHe" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="90" id="T6b-t9-xv2"/>
+                            <constraint firstItem="3Tk-KE-adT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W9w-3D-zeS"/>
+                            <constraint firstItem="kE2-T2-T7g" firstAttribute="centerX" secondItem="Mpr-Fw-uHe" secondAttribute="centerX" id="WdD-YU-I8L"/>
+                            <constraint firstItem="3Tk-KE-adT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zcj-Qa-5w2"/>
+                            <constraint firstItem="Ta2-FW-Osb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="e8k-Jn-90s"/>
+                            <constraint firstAttribute="bottom" secondItem="kE2-T2-T7g" secondAttribute="bottom" constant="20" id="xkY-Eh-9ve"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="muteButton" destination="kE2-T2-T7g" id="LTo-I9-fkW"/>
+                        <outlet property="startStopButton" destination="Mpr-Fw-uHe" id="NIm-Sh-Toa"/>
+                        <outlet property="timerLabel" destination="Ta2-FW-Osb" id="bNF-t3-4jU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_1152 copy" width="2042" height="1837"/>
+        <image name="linea--music-mute" width="89" height="91"/>
+    </resources>
+</document>
