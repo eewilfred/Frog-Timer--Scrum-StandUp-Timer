@@ -572,15 +572,16 @@
 			baseConfigurationReference = BD90660F36EAF875EF031442 /* Pods-Frog Timer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MQAZ8689YE;
 				INFOPLIST_FILE = "Frog Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.altayer.Frog-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.at.frog-timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Frog-Timer for stand ups";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,15 +592,16 @@
 			baseConfigurationReference = 8E5ED098C2D631942D34994D /* Pods-Frog Timer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 5C56CTSGBQ;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Frog Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.altayer.Frog-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.at.frog-timer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
